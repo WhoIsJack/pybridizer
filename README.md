@@ -11,8 +11,14 @@ The module allows for quick and easy design of probe pairs for the Hybridization
 You can install the Pybridizer HCR probe design tool by first creating a virtual environment using conda:
 
 ```
-conda create --name pyrbidize python
+conda create --name pyrbidize python ipykernel
 conda activate pybridize
+```
+
+Optionally, add this environment as an available kernel for jupyter notebook:
+
+```
+python -m ipykernel install --user --name=pybridize
 ```
 
 You can then use pip to install the HCR probe design tool:

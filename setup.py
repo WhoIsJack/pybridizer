@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pybridizer",
-    version="0.2.0",
+    version="0.2.1",
     packages=find_packages(),
     install_requires=[
         "biopython>=1.79",
@@ -10,7 +10,8 @@ setup(
         "biothings_client>=0.2.6",
         "matplotlib>=3.4.0",
         "seaborn>=0.11.0",
-        "numpy>=1.20.0"
+        "numpy>=1.20.0",
+        "openpyxl>=3.1.5",
     ],
     author="Chintan Trivedi",
     author_email="c.trivedi@ucl.ac.uk",
