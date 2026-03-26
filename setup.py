@@ -16,7 +16,7 @@ setup(
     author="Chintan Trivedi",
     author_email="c.trivedi@ucl.ac.uk",
     description="A tool for designing HCR (Hybridization Chain Reaction) v3 probes",
-    long_description=open("README.md").read(),
+    long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/ctucl/pybridizer",
     classifiers=[

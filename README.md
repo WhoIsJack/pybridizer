@@ -41,7 +41,7 @@ Requires python (e.g. the [miniforge conda distribution](https://conda-forge.org
 First create a new virtual environment using conda:
 
 ```
-conda create --name pyrbidize python ipykernel
+conda create --name pyrbidize python ipykernel setuptools wheel
 conda activate pybridize
 ```
 
@@ -55,6 +55,12 @@ Use pip to install the HCR probe design tool (from PyPI):
 
 ```
 pip install pybridizer
+```
+
+Developers may wish to install in editable mode from within the cloned repo to be able to make changes to the code:
+
+```
+pip install -e .
 ```
 
 
