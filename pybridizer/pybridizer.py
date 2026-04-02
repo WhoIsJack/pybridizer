@@ -128,7 +128,7 @@ def blast_oligos(oligos_all, dbname, taxid=None, faa_fpath=None, result_fpath=No
         dbname (str): BLAST database name
         taxid (str/int, optional): Taxonomy ID for filtering. If None, no taxid filter is applied.
         faa_fpath (str/None, optional): File path for "oligos.faa" file
-        result_fpath (str/None, optiona): File path for "result_tab.txt" file
+        result_fpath (str/None, optional): File path for "result_tab.txt" file
 
     Returns:
         pandas.DataFrame: Filtered BLAST results
